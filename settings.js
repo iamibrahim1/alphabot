@@ -2,6 +2,9 @@ const fs = require('fs')
 const chalk = require('chalk')
 const  { indonesia, english, spanyol} = require(`./language`)
 
+
+global.keysZeeone = ['TcjDtsMJ', 'kUF2aBjM', '2nlLuqfy', 'rErGxBzr', 'KMCJgIRH','m242ANUO', 'WoH9KRqY', 'qjOpwJIA', 'xsTFGsFc', 'wYBojGOu']
+global.keysxxx = keysZeeone[Math.floor(keysZens.length * Math.random())]
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
 	alfa: 'https://api.zeeoneofc.xyz', //apabila link api eror, segera laporkan ke owner
@@ -9,13 +12,13 @@ global.APIs = {
 
 // Free apikey (Apikey expired silahkan login terus ganti V12 dgn apikey lu)
 global.APIKeys = {
-	'https://api.zeeoneofc.xyz': 'kUF2aBjM',  // 👉 login https://api.zeeoneofc.xyz to get apikey
+	'https://api.zeeoneofc.xyz': '${keysxxx}',  // 👉 login https://api.zeeoneofc.xyz to get apikey
 }
 
 // setting 
 global.autoread = false // auto read message
 global.autobio = true 
-global.userRegister = true 
+global.userRegister = false 
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 
 //language
